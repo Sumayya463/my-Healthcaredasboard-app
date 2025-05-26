@@ -1,0 +1,42 @@
+.schedule-heading{
+    h2{
+        color:#233073;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+
+.appt-div, .appt-divs{
+    display: flex;
+    flex-direction: row;
+  
+
+    .appt1, .appt2{
+        background-color:  #d7dcf8;
+        margin-right: 20px;
+        border-radius: 20px;
+        color:#233073;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+          padding-top:0px;
+          padding-left:20px;
+          padding-right: 20px;
+
+        .sch-icon{
+            margin-left: 50px;
+            color:rgb(127, 212, 255)
+        }
+    }
+
+    
+}
+.day1, .day2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#979dbf;
+}
+
+.appt-divs .sch-icons{
+    color:red;
+    margin-left: 50px;
+}

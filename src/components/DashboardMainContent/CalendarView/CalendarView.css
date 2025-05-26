@@ -1,0 +1,116 @@
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 45px;
+    button{
+        background-color:#2d40a3;
+        color:white;
+        border:none;
+        padding-top: 5px;
+        border-radius: 10px;
+        height:50px;
+        width:50px;
+        margin-top: 12px;
+    }
+}
+.calendar-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#233073;
+        margin-left: 30px;
+    }
+
+    .arrows{
+        color:#2d40a3;
+        display: flex;
+        justify-content: space-between;
+       margin-top:25px;
+       margin-right: 40px;
+    }
+   
+}
+
+.calendar-container {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+ 
+  overflow-x: auto;
+}
+
+.calendar-column {
+ 
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.calendar-day {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4b4b4b;
+  margin-bottom: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calendar-date {
+  font-size: 18px;
+  font-weight: bold;
+  color: #233073;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calendar-slot {
+
+  margin: 5px 0;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  color:#233073;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.calendar-container .calendar-column:nth-child(2) {
+  background-color: #e2e4f8;
+ 
+}
+
+.calendar-column:nth-child(2) .calendar-slot:nth-child(4){
+    background-color:#2d40a3;
+    color:#eff1ff;
+}
+
+.calendar-column:nth-child(4) .calendar-slot:nth-child(4){
+    background-color: #b5bbdb;
+    color:#eff1ff;
+}
+
+.calendar-column:nth-child(6) .calendar-slot:nth-child(3){
+    background-color:  #b5bbdb;
+    color:#eff1ff;
+    width:60px;
+    margin-right: -40px;
+    
+}
+
+.calendar-column:nth-child(7) .calendar-slot:nth-child(3){
+    background-color:  #b5bbdb;
+    color:#eff1ff;
+    width: 60px;
+    margin-left: -15px;
+    padding-left: 15px;
+}
+
+.empty-slot {
+
+  color: #aaa;
+}

@@ -1,0 +1,24 @@
+.dashboard-overview{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    h2{
+        color:#233073;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .week-option{
+      border:none;
+      padding:5px;
+      height:30px;
+      margin-top: 5px;
+      color:#233073;
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 600;
+
+        .details{
+            margin-top: 470px;
+            
+        }
+    }
+}

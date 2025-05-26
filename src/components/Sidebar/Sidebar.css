@@ -1,0 +1,110 @@
+.Sidebar {
+  height:92vh;
+  width:175px;
+  background-color:#eef1ff; 
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', sans-serif;
+  position: fixed;
+  margin:10px;
+  margin-bottom: 10px;
+  border-radius: 35px 0px 0px 35px;
+}
+
+.logo-name{
+  font-size: 24px;
+  font-weight: bold;
+  color: #233073;
+  padding: 20px;
+}
+
+.logo-name span {
+  color: rgb(14, 248, 229);
+}
+
+.side-nav{
+  flex-grow: 1;
+}
+
+.ul-heading{
+  font-size: 14px;
+  color: #9095b3;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+  
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+
+  border-radius: 8px;
+  cursor: pointer;
+   color: #d2d2d8;
+  margin-bottom: 20px;
+ 
+}
+.nav-links li:hover{
+    color: #233073;
+}
+
+.nav-links li:active{
+    color: #233073;
+} 
+
+
+
+.icon {
+  margin-right: 12px;
+  font-size: 16px;
+  color: #7c83f5;
+  padding-left: 30px;
+  
+}
+
+#tools{
+  font-size: 14px;
+  color: #9095b3;
+  letter-spacing: 1px;
+  padding-left: 20px;
+   font-family: 'Segoe UI', sans-serif;
+   font-weight:bold;
+   margin-top: 20px;
+}
+
+#setting{
+    
+    list-style: none;
+  padding-left: 10px;
+  margin: 0;
+   
+  display: flex;
+  align-items: center;
+
+  border-radius: 8px;
+  cursor: pointer;
+  color: #d2d2d8;
+  margin-top: 140px;
+}
+
+#setting:hover{
+    color: #233073;
+}
+
+#setting:active{
+    color: #233073;
+}
+
+
+#dashboard{
+    color: #233073;
+}
+
