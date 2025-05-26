@@ -1,0 +1,62 @@
+.human-anatomy{
+    background-color: #eef1ff;
+    width:350px;
+    height:500px;
+    border-radius: 35px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-left:20px;
+
+
+    .human-img{
+    width:500px;
+    height:500px;
+    background: transparent;
+    margin-left: -70px;
+    display: block;
+
+    }
+
+    .zoom{
+       position: absolute;
+       top: 20px;
+       right: 20px;
+       font-size: 24px;
+       color: #333;
+       background-color: #eef1ff;
+       padding: 6px;
+       border-radius: 50%;
+       cursor: pointer;
+       z-index: 10; 
+    }
+
+    .label {
+  position: absolute;
+  padding: 8px 14px;
+  background-color: #00d0ff;
+  color:#eef1ff;
+  font-size: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.label.heart {
+  top: 25%;
+  left: 60%;
+  
+  background-color:#2d40a3;
+ 
+}
+
+
+.label.leg {
+  top: 70%;
+  left: 10%;
+  
+  background-color: #26c6da; 
+}
+}

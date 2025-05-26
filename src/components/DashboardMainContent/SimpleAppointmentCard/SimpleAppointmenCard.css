@@ -1,0 +1,54 @@
+.appointments{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 20px;
+    .dentist{
+      height:110px;
+      width: 160px;
+      background-color: #2d40a3;
+      border-radius: 20px;
+       
+       padding-left: 20px;
+
+      h4, p{
+        color:#eff1ff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 10px;
+       
+      }
+      h4 .icons{
+            margin-left: 50px;
+        }
+      p{
+        font-size: 12px;
+      }
+      
+    }
+    .physio{
+     height:110px;
+     width: 350px;
+     background-color:  #d7dcf8;
+      border-radius: 20px;
+      margin-left: 20px;
+       padding-left: 20px;
+
+       .icons{
+        color:rgb(255, 255, 205);
+       }
+
+      h4, p{
+        color: #233073;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 10px;
+       
+      }
+      h4 .icons{
+            margin-left: 50px;
+        }
+      p{
+        font-size: 12px;
+      }
+      
+    }
+}
