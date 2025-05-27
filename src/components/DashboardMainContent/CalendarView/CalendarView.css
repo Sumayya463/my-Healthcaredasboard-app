@@ -127,7 +127,12 @@
   }
 }
 @media (max-width:300px){
+ 
   .calendar-column{
-    padding-left:0px;
+    margin-left:-11px;
+    margin-right: -10px;
+
   }
-}
+  .right-sideContent{
+    margin-left: -160px;
+  }}

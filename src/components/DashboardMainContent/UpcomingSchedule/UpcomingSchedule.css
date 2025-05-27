@@ -53,10 +53,16 @@
 
 @media(max-width:300px){
     .day1, .day2{
-        margin-left: 40px;
+        margin-left: 10px;
     }
 
     .appt-div, .appt-divs{
         margin-left: 20px;
+    }
+    .schedule-heading{
+        padding-left: 10px;
+    }
+    .sch-icon, .sch-icons{
+        display: none;
     }
 }
