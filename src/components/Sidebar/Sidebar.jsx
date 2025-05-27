@@ -18,9 +18,10 @@ const Sidebar = () => {
     <li><FaChartBar className='icon'/>Statistics</li>    
     <li id="tools">Tools</li>    
     <li><FaComments className='icon'/>Chat</li>
-    <li><FaLifeRing className='icon'/>Support</li>        
+    <li><FaLifeRing className='icon'/>Support</li>
+    <li><FaCog className='icon'/>Setting</li>          
     </ul>     
-    <li id="setting"><FaCog className='icon'/>Setting</li>  
+    
      </nav>
    
     </div>

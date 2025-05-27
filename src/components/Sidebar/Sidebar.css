@@ -80,31 +80,95 @@
    margin-top: 20px;
 }
 
-#setting{
-    
-    list-style: none;
-  padding-left: 10px;
-  margin: 0;
-   
-  display: flex;
-  align-items: center;
 
-  border-radius: 8px;
-  cursor: pointer;
-  color: #d2d2d8;
-  margin-top: 140px;
-}
-
-#setting:hover{
-    color: #233073;
-}
-
-#setting:active{
-    color: #233073;
-}
 
 
 #dashboard{
     color: #233073;
 }
 
+@media (max-width: 900px) {
+  .Sidebar {
+    width: 155px;
+    border-radius:35px 0px 0px 35px;
+    margin-left: 0px;
+    margin-top: -10px;
+  }
+
+  .logo-name {
+    font-size: 18px;
+    padding-left:30px;
+  }
+
+  .ul-heading{
+     font-size: 10px;
+     margin-left: 25px;
+  }
+  
+  #tools {
+    font-size: 10px;
+     margin-left: -55px;
+  }
+
+  .nav-links li {
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .icon {
+    margin-right: 0;
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  .nav-links li span {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  
+}
+
+@media (max-width: 300px) {
+  .Sidebar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 35px 35px 0px 0px;
+    left: 0;
+    z-index: 1000;
+    margin-top: -20px;
+  }
+
+  .ul-heading{
+    font-size: 10px;
+  }
+
+  .ul-heading,
+  #tools {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    height:50px;
+    width: 40%;
+    margin-left: -15px;
+  }
+
+  .nav-links li {
+    margin: 5px;
+    margin-left: 0px;
+   font-size: 9.5px;
+  }
+  
+ 
+ 
+}

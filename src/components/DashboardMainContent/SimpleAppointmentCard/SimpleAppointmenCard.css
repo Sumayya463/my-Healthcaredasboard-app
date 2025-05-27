@@ -52,3 +52,27 @@
       
     }
 }
+
+@media (max-width:900px){
+  .appointments{
+    margin-left: 150px;
+  }
+  .dentist{
+    margin-left: 30px;
+  }
+}
+
+@media (max-width:300px){
+  .appointments{
+    margin-left: 0px;
+  }
+
+
+  .icons{
+    display: none;
+  }
+
+  .physio{
+    width:330px;
+  }
+}
