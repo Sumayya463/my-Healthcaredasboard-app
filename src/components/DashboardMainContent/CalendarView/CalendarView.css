@@ -126,7 +126,7 @@
     margin-left: 150px;
   }
 }
-@media (max-width:300px){
+@media (max-width:435px){
  
   .calendar-column{
     margin-left:-11px;

@@ -132,7 +132,7 @@
   
 }
 
-@media (max-width: 300px) {
+@media (max-width: 435px) {
   .Sidebar {
     position: fixed;
     width: 420px;
