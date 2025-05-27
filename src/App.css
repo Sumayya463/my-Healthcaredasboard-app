@@ -51,7 +51,7 @@ body{
 @media (max-width: 900px) {
   .container {
     flex-direction:column;
-    width: 860px;
+    width: 880px;
   }
 
   .sidebar,
@@ -72,7 +72,7 @@ body{
 
   .calendar-schedule {
     order: 3;
-    width: 900px;
+    width: 880px;
   }
 
   .grid-overview {
@@ -93,14 +93,25 @@ body{
 
 
 
-@media (max-width:300px){
+@media (max-width:435px){
   .container{
     width: 300px;
     margin-left: -10px;
   }
+  .grid-overview{
+    display: flex;
+    flex-direction: column;
+  }
+
   .health-status{
     display: flex;
     flex-direction:column;
+    margin-left: 15px;
   }
-  
+  .calendar-schedule{
+    width: 420px;
+  }
+  .main-section{
+    width: 420px;
+  }
 }
