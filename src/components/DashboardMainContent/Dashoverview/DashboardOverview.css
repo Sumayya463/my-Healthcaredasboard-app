@@ -22,3 +22,49 @@
         }
     }
 }
+
+@media (max-width:900px){
+ 
+  .week-option p{
+    margin-left:-20px;
+  }
+  .dashboard-overview h2{
+    margin-left: 160px;
+  }
+  .details{
+    margin-left: -50px;
+    padding-top: 30px;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .dashboard-overview {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+   
+  }
+    .dashboard-overview  h2{
+      margin-left: 40px;
+    }
+
+  .week-option {
+    width: 100%;
+  }
+    .week-option p{
+        margin-top:-60px;
+        margin-left:300px;
+    }
+
+  .dashboard-overview h2 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .details {
+    padding-top: 580px;
+    margin-left: 290px;
+  }
+}

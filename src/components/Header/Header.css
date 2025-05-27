@@ -32,3 +32,27 @@
    color:#2d40a3;
 }
 }
+
+@media (max-width:900px){
+ .search-bar{
+   width:650px;
+   margin-top: 20px;
+   margin-left: 160px;
+   .bell-icon{
+         margin-left: 380px;
+      }
+ }
+}
+
+@media (max-width: 300px){
+   .search-bar{
+      width:370px;
+      margin-left: 10px;
+   }
+
+   .search-bar  .bell-icon{
+         margin-left: 120px;
+      }
+
+
+}

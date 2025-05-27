@@ -4,7 +4,6 @@
   padding: 20px;
   margin: 20px;
   width: 620x;
-  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -31,8 +30,6 @@
 
 .activity-graph {
   display: flex;
-  
-  
   height: 100px;
 }
 
@@ -59,9 +56,41 @@ p{
 
 .bar {
   width: 3px;
- 
   border-radius: 6px;
-  transition: 0.3s;
-  margin-right: 10px;
+ margin-right: 10px;
 }
+}
+
+@media (max-width:900px){
+ .activity-container{
+  width:600px;
+  margin-left: 160px;
+ } 
+}
+
+@media (max-width:300px){
+  .activity-container{
+    margin-top: 30px;
+    width: 340px;
+     margin-left: 0px;
+  }
+  .activity-graph{
+    width: 320px;
+    margin-left: 10px;
+  }
+  .day{
+   
+    margin-left: -25px;
+  
+  }
+  .days{
+    margin-left: -2px;
+  }
+  .bar{
+    margin-right:-5px;
+  }
+ .days .dayname{
+  margin-left: -45px;
+ }
+  
 }

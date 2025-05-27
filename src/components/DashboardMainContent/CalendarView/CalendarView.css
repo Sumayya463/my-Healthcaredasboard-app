@@ -114,3 +114,20 @@
 
   color: #aaa;
 }
+
+@media (max-width:900px){
+  .header-right{
+    margin-left: -10px;
+  }
+  .calendar-heading{
+    margin-left: 150px;
+  }
+  .calendar-container{
+    margin-left: 150px;
+  }
+}
+@media (max-width:300px){
+  .calendar-column{
+    padding-left:0px;
+  }
+}

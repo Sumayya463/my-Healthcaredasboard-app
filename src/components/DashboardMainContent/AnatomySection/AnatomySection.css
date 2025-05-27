@@ -44,19 +44,57 @@
 }
 
 
-.label.heart {
+.label-heart {
   top: 25%;
   left: 60%;
-  
+  z-index: 20;
   background-color:#2d40a3;
- 
+  position: absolute;
+  color:#eef1ff;
+  padding:8px;
+  border-radius: 10px;  
 }
 
 
-.label.leg {
+.label-leg {
   top: 70%;
   left: 10%;
-  
+  z-index:20;
   background-color: #26c6da; 
+  position:absolute;
+   color:#eef1ff;
+    padding:8px;
+    border-radius: 10px;
 }
+}
+
+@media (max-width:900px){
+  .human-anatomy{
+    margin-left: 160px;
+  }
+}
+
+
+@media (max-width:300px){
+  .human-anatomy{
+    margin-left: -5px; 
+    width:400px;
+    height:550px; 
+    margin-top: -30px;
+ 
+    
+
+ 
+.label heart {
+  top:18%;
+  right:20%;
+}
+
+
+.label leg {
+  bottom:8%;
+  left:18%;
+}
+  }
+ 
 }

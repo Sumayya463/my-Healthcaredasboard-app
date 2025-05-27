@@ -40,3 +40,23 @@
     color:red;
     margin-left: 50px;
 }
+
+@media (max-width:900px){
+    .day1, .day2, .appt-div, .appt-divs{
+        margin-left: 20px;
+    }
+    .schedule-heading{
+        padding-left: 160px;
+    }
+    
+}
+
+@media(max-width:300px){
+    .day1, .day2{
+        margin-left: 40px;
+    }
+
+    .appt-div, .appt-divs{
+        margin-left: 20px;
+    }
+}

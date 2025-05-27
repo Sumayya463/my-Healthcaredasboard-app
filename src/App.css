@@ -1,5 +1,6 @@
 body{
   background-color:#dce0f2;
+  width: 300px;
 }
 
  .container{
@@ -45,4 +46,61 @@ body{
 .grid-overview{
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction:column;
+    width: 860px;
+  }
+
+  .sidebar,
+  .main-section,
+  .calendar-schedule {
+    width: 150%;
+    margin: 10px 0;
+    border-radius: 20px;
+  }
+
+  .sidebar {
+    order: 1;
+  }
+
+  .main-section {
+    order: 2;
+  }
+
+  .calendar-schedule {
+    order: 3;
+    width: 900px;
+  }
+
+  .grid-overview {
+    display: flex;
+    flex-direction:row;
+  }
+  .health-status{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-section{
+    margin-top: -20px;
+    width: 860px;
+  }
+ 
+}
+
+
+
+@media (max-width:300px){
+  .container{
+    width: 300px;
+    margin-left: -10px;
+  }
+  .health-status{
+    display: flex;
+    flex-direction:column;
+  }
+  
 }
