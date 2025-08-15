@@ -7,6 +7,9 @@ const Header = () => {
   return (
     
     <div className='search-bar'>
+      <button className="menu-toggle" onClick={() => document.querySelector('.Sidebar').classList.toggle('active')}>
+          ☰ Menu
+        </button>
       <FaSearch className='search-icon'/>
     <input type="text" placeholder='Search' disabled></input>
      <FaBell className='bell-icon'/>
